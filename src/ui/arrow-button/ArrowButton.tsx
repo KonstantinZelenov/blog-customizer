@@ -3,7 +3,7 @@ import arrow from 'src/images/arrow.svg';
 import styles from './ArrowButton.module.scss';
 import clsx from 'clsx';
 
-/** Функция для обработки открытия/закрытия формы */
+/* Функция для обработки открытия/закрытия формы */
 export type OnClick = () => void;
 
 type ArrowButtonProps = {
